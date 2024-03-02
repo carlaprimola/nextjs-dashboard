@@ -1,3 +1,7 @@
+//Layout es el que contiene todas las páginas
+
+import { montserrat } from './ui/fonts'; //importamos la fuente
+import '../app/ui/global.css'
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${montserrat.className} antialiased`}>{children}</body>
     </html>
   );
 }
