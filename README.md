@@ -12,7 +12,7 @@ Si quieres empezar de cero. Primero debes instalar la plantilla de Vercel:
 npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
 ```
 
-Para la DB vamos a usar Vercel Storage:
+**Para la DB vamos a usar Vercel Storage:**
     1. Primero debes tener creada una cuenta en Vercel y hacer login
     2. Debes ir a tu perfil a la sección STORAGE
     3. Crear una nueba DB con SQL (Postgres)
